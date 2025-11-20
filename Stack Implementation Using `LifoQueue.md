@@ -22,8 +22,20 @@ To create a Python program that:
 6. Use `get()` repeatedly to pop and print elements in reverse order.
 
 ## Program
-Add Code Here
+```
+q = []
+n=int(input())
+for i in range(n):
+q.append(input())
+q.pop(0)
+q.pop(0)
+print(q)
+```
+
 
 ## 🧪 Sample Input and Output
 
+<img width="638" height="319" alt="image" src="https://github.com/user-attachments/assets/23807dda-85b4-4b51-b747-f127d39f58fa" />
+
 ## Result:
+Thus the program has been successfully executed
